@@ -45,34 +45,6 @@ aparcstats2table --hemi rh --subjects $list --parc BA --meas meancurv --skip -t 
 quantifyHippocampalSubfields.sh T1 hippocampal_subfields.txt
 quantifyBrainstemStructures.sh brainstem_subfields.txt ./
 
-#adds subjectid to the first column of the header
-sed -i '1s/^/subjectid /' wmparc_stats.txt
-sed -i '1s/^/subjectid /' aparc_volume_lh.txt
-sed -i '1s/^/subjectid /' aparc_thickness_lh.txt
-sed -i '1s/^/subjectid /' aparc_area_lh.txt
-sed -i '1s/^/subjectid /' aparc_meancurv_lh.txt
-sed -i '1s/^/subjectid /' aparc_volume_rh.txt
-sed -i '1s/^/subjectid /' aparc_thickness_rh.txt
-sed -i '1s/^/subjectid /' aparc_area_rh.txt
-sed -i '1s/^/subjectid /' aparc_meancurv_rh.txt
-sed -i '1s/^/subjectid /' lh.a2009s.volume.txt
-sed -i '1s/^/subjectid /' lh.a2009s.thickness.txt
-sed -i '1s/^/subjectid /' lh.a2009s.area.txt
-sed -i '1s/^/subjectid /' lh.a2009s.meancurv.txt
-sed -i '1s/^/subjectid /' rh.a2009s.volume.txt
-sed -i '1s/^/subjectid /' rh.a2009s.thickness.txt
-sed -i '1s/^/subjectid /' rh.a2009s.area.txt
-sed -i '1s/^/subjectid /' rh.a2009s.meancurv.txt
-sed -i '1s/^/subjectid /' lh.BA.volume.txt
-sed -i '1s/^/subjectid /' lh.BA.thickness.txt
-sed -i '1s/^/subjectid /' lh.BA.area.txt
-sed -i '1s/^/subjectid /' lh.BA.meancurv.txt
-sed -i '1s/^/subjectid /' rh.BA.volume.txt
-sed -i '1s/^/subjectid /' rh.BA.thickness.txt
-sed -i '1s/^/subjectid /' rh.BA.area.txt
-sed -i '1s/^/subjectid /' rh.BA.meancurv.txt
-sed -i '1s/^/subjectid /' hippocampalsubfields
-sed -i '1s/^/subjectid /' brainstemseg
 
 #converts txt files into csv files
 sed 's/ \+/,/g' aseg_stats.txt > aseg_stats.csv
