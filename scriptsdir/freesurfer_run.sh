@@ -12,7 +12,7 @@ pwd; hostname; date
  
 module load freesurfer/6.0.0
 
-SUBJ=sINDV_SUBJECTID
+SUBJ=INDV_SUBJECTID
  
 recon-all -subjid ${SUBJ} -i ${SUBJ}/T1.nii -all -sd ${SUBJ}
  
