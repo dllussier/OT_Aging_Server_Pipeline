@@ -128,7 +128,7 @@ do
  	sed -i -e "s/INDV_SUBJECTID/${a}${visit}/g" ${a}${visit}/freesurfer_run.sh
 	sed -i -e "s/INDV_SUBJECTID/${a}${visit}/g" ${a}${visit}/hsFEAT_fsreg.fsf
  	sed -i -e "s/INDV_SUBJECTID/${a}${visit}/g" ${a}${visit}/rsICA_fsreg.fsf
-	sed -i -e "s/INDV_SUBJECTID/${a}${visit}/g" ${a}${visit}/rsICA_fsreg.fsf
+	sed -i -e "s/INDV_SUBJECTID/${a}${visit}/g" ${a}${visit}/rsICA_fsreg.sh
 	sed -i -e "s/INDV_SUBJECTID/${a}${visit}/g" ${a}${visit}/tracall_prep_config.txt
  	echo "correct subject number inserted into scripts for" ${a}${visit}
 
