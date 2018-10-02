@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --account=<group>
 #SBATCH --qos=<group>
-#SBATCH --job-name=bet_melodic_feat
+#SBATCH --job-name=hsfeat
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=<email_associated_with_hipergator_account>
 #SBATCH --ntasks=1
