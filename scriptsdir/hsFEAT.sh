@@ -10,7 +10,7 @@
 #SBATCH --output=bet_melodic_feat_%j.out
 pwd; hostname; date
 
-module load fsl/5.0.11
+module load fsl/5.0.10
 
 feat hsFEAT.fsf
 date
