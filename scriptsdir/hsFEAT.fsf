@@ -30,7 +30,7 @@ set fmri(featwatcher_yn) 0
 set fmri(sscleanup_yn) 0
 
 # Output directory
-set fmri(outputdir) "/ufrc/ebner/dgulliford/otaging/pv/21005/FSL/HS"
+set fmri(outputdir) "FSL_SUBJECT_DIRECTORY/INDV_SUBJECTID/HS"
 
 # TR(s)
 set fmri(tr) 2.00000
@@ -81,7 +81,7 @@ set fmri(mc) 1
 set fmri(sh_yn) 0
 
 # B0 fieldmap unwarping?
-set fmri(regunwarp_yn) 0
+set fmri(regunwarp_yn) 1
 
 # EPI dwell time (ms)
 set fmri(dwell) 0.7
@@ -275,7 +275,7 @@ set feat_files(1) "/ufrc/ebner/dgulliford/otaging/pv/21005/hsBOLD/hsBOLD"
 set fmri(confoundevs) 0
 
 # Subject's structural image for analysis 1
-set highres_files(1) "/ufrc/ebner/dgulliford/otaging/pv/21005/FSL/T1/T1_brain"
+set highres_files(1) "FSL_SUBJECT_DIRECTORY/INDV_SUBJECTID/T1/aparc+aseg.mgz"
 
 # EV 1 title
 set fmri(evtitle1) "fixation"
@@ -309,7 +309,7 @@ set fmri(tempfilt_yn1) 1
 set fmri(deriv_yn1) 1
 
 # Custom EV file (EV 1)
-set fmri(custom1) "/ufrc/ebner/dgulliford/otaging/pv/21005/hsBOLD/hs_behavioral/fixation.txt"
+set fmri(custom1) "FSL_SUBJECT_DIRECTORY/INDV_SUBJECTID/HS/fixation.txt"
 
 # Gamma sigma (EV 1)
 set fmri(gammasigma1) 3
@@ -361,7 +361,7 @@ set fmri(tempfilt_yn2) 1
 set fmri(deriv_yn2) 1
 
 # Custom EV file (EV 2)
-set fmri(custom2) "/ufrc/ebner/dgulliford/otaging/pv/21005/hsBOLD/hs_behavioral/nonsocial.txt"
+set fmri(custom2) "FSL_SUBJECT_DIRECTORY/INDV_SUBJECTID/HS/nonsocial.txt"
 
 
 # Gamma sigma (EV 2)
@@ -414,7 +414,7 @@ set fmri(tempfilt_yn3) 1
 set fmri(deriv_yn3) 1
 
 # Custom EV file (EV 3)
-set fmri(custom3) "/ufrc/ebner/dgulliford/otaging/pv/21005/hsBOLD/hs_behavioral/social.txt"
+set fmri(custom3) "FSL_SUBJECT_DIRECTORY/INDV_SUBJECTID/HS/social.txt"
 
 
 # Gamma sigma (EV 3)
