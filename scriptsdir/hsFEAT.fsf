@@ -30,7 +30,7 @@ set fmri(featwatcher_yn) 0
 set fmri(sscleanup_yn) 0
 
 # Output directory
-set fmri(outputdir) "/ufrc/ebner/share/working/OT_Aging/HS/INDV_SUBJECTID/"
+set fmri(outputdir) "/ufrc/ebner/share/working/OT_Aging/HS/INDV_SUBJECTID/INDV_SUBJECTID"
 
 # TR(s)
 set fmri(tr) 2.00000
@@ -275,7 +275,7 @@ set feat_files(1) "/ufrc/ebner/share/working/OT_Aging/HS/INDV_SUBJECTID/hsBOLD"
 set fmri(confoundevs) 0
 
 # Subject's structural image for analysis 1
-set highres_files(1) "/ufrc/ebner/share/working/OT_Aging/freesurfer/INDV_SUBJECTID/aparc+aseg.mgz"
+set highres_files(1) "/ufrc/ebner/share/working/OT_Aging/T1/FSL/bet/INDV_SUBJECTID_bet.nii"
 
 # EV 1 title
 set fmri(evtitle1) "fixation"
